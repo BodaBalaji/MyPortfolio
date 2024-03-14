@@ -8,7 +8,7 @@ const About=()=>{
           <br />
           <br />
           <p>Hi Everyone. I am <span style={{color:"violet"}}>Boda Balaji</span> from <span style={{color:"violet"}}>Hyderabad, INDIA.</span> Iam currently doing my Internship as an FullStack Developer in ExcelR, Hyderabad.</p><br />
-          <p>I fell in love with proramming and I have atleast learnt something. I think..🤷🏻‍♂️</p>
+          <p>I fell in love with programming and I have atleast learnt something. I think..🤷🏻‍♂️</p>
           <p>I am fluent in classics like <span style={{ color:"violet"}}>JavaScript, ReactJS, SpringBoot and Go.❤</span></p>
           <p>My field of intrest's are building new <span style={{color:"violet"}}>Web Technologies and Products</span></p>
           <p>Whenever possible, I also apply my passion for developing projects with <span style={{color:"violet"}}>Node.js</span> and <span style={{color:"violet"}}>Modern JavaScript Frameworks like React.js</span></p>
