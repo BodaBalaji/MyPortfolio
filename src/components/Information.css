@@ -1,0 +1,50 @@
+.inf1{
+    border: 1px solid grey;
+    border-radius: 20px;
+    margin: 100px;
+    padding: 50px;
+}
+.inf1>p{
+    text-align:inherit;
+    font-size: large;
+    font-weight: bold;
+    font-family: cursive;
+    padding: 10px;
+}
+.b1{
+    color: white;
+    background-color: green;
+    padding: 10px;
+    width: 100px;
+    margin: 15px; 
+}
+.b2{
+    color: white;
+    background-color: orange;
+    padding: 10px;
+    margin: 15px;
+   width: 100px; 
+}
+.b2>a{
+    color: white;
+}
+.inf2>div>h2{
+    font-size: large;
+    font-family: cursive;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.inf2>div>a{
+    display: inline;
+    padding: 30px;
+    color: wheat;
+    border-radius: 50%;
+    
+}
+.inf2>div>p{
+    font-size: large;
+    font-family: cursive;
+    margin-top:10px;
+    padding: 10px;
+
+}

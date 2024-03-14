@@ -1,0 +1,39 @@
+.About{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 80px;
+}
+.About>p{
+    font-family: cursive; 
+}
+.study{
+    margin: 20px;
+    padding: 20px;
+}
+.UG{
+    border: 1px solid;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 30px;
+}
+.UG>p{
+    font-size: 20px;
+}
+.BIE{
+    border: 1px solid;
+    border-radius: 20px;
+    margin: 40px;
+    padding: 40px;
+}
+.BIE>p{
+    font-size: 20px; 
+}
+.SSC{
+    border: 1px solid;
+    border-radius: 20px;
+    margin: 30px;
+    padding: 40px;
+}
+.SSC>p{
+    font-size:20px;
+}

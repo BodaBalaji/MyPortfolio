@@ -1,0 +1,29 @@
+h2{
+    margin: 20px;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.skills{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 20px;
+}
+.skills>div{
+    border: 1px solid gray;
+    padding: 25px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 30px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.skills>div:hover{
+    background-color: rgb(25, 150, 192);
+    cursor: pointer;
+}
