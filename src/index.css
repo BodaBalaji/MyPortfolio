@@ -6,6 +6,13 @@ body {
   background-repeat: no-repeat;
 }
 
+p{
+  color: white;
+}
+h2{
+  color: whitesmoke;
+}
+
 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;

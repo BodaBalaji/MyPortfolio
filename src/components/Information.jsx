@@ -23,7 +23,7 @@ import {useNavigate} from "react-router-dom";
              <div className="inf2">
             <div >
                 <h2>FOLLOW <span style={{color:"violet"}}>ME</span> ON </h2>
-                <a href="#"><i className="fa fa-github"></i></a>
+                <a href="https://github.com/BodaBalaji/MyPortfolio"><i className="fa fa-github"></i></a>
             <a href="https://www.linkedin.com/in/boda-balaji-684930285?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i className="fa fa-linkedin"></i></a>
             <a href="https://www.instagram.com/balajirysh?igsh=MXcwcDFhemZkMHU3eQ=="><i className="fa fa-instagram"></i></a>
             <a href="https://x.com/balajiboda2208?t=WHJRQTeOfP25af3h36eeBA&s=09"><i className="fa fa-twitter"></i></a>
