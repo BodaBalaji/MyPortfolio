@@ -16,7 +16,7 @@ const About=()=>{
         <div className="study">
             <div className="UG">
                 <h3><span style={{color:"violet"}}>MALLAREDDY ENGINEERING COLLEGE</span></h3>
-                <p>👉🏻Completed my <span style={{color:"violet"}}>Graduation</span> from <span style={{color:"violet"}}>MallaReddy Engineering College</span> in EEE stream during the academics from <span style={{color:"violet"}}>2k19-2k23.</span> </p>
+                <p>👉🏻Completed my <span style={{color:"violet"}}>Graduation</span> from <span style={{color:"violet"}}>MallaReddy Engineering College</span> in EEE stream during the academics from <br></br><span style={{color:"violet"}}>2k19-2k23.</span> </p>
             </div>
             <div className="BIE">
                 <h3><span style={{color:"violet"}}>NRI JUNIOR COLLEGE</span></h3>

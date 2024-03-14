@@ -12,6 +12,7 @@
 }
 .UG{
     border: 1px solid;
+    border-color: gray;
     border-radius: 20px;
     margin: 20px;
     padding: 30px;
@@ -21,6 +22,7 @@
 }
 .BIE{
     border: 1px solid;
+    border-color: gray;
     border-radius: 20px;
     margin: 40px;
     padding: 40px;
@@ -30,6 +32,7 @@
 }
 .SSC{
     border: 1px solid;
+    border-color: gray;
     border-radius: 20px;
     margin: 30px;
     padding: 40px;
