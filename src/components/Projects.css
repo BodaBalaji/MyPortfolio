@@ -45,3 +45,16 @@
  .project3>img{
      border-radius: 50px;
  }
+ .project4{
+    border: 1px solid grey;
+    border-radius: 30px;
+    padding: 40px;
+    height: 550px;
+    width: 500px;
+}
+.project4>h2{
+    margin: 20px;
+}
+.project4>img{
+    border-radius: 50px;
+}
