@@ -33,7 +33,7 @@ const Home=()=>{
                 <p>Hi There..! <span className="wave">👋🏻</span></p>
             <h2 className="child3">I'M BODA BALAJI</h2>
             <p>A passionate<br />
-                <span className="c1"> Full Stack Developer/MERN Stack Developer</span> <br />
+                <span className="c1"></span> <br />
                 from Hyderabad.</p>
             </div>
             <div className="child2">
