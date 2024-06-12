@@ -5,26 +5,30 @@
     align-items:flex-start;
     grid-column-gap: 450px;
     margin-bottom: 120px;
-    margin-top: 100px;
+    margin-top: 120px;
+    position: relative;
 }
 .child1>p{
     font-size: 30px;
-    font-family:cursive;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
     font-stretch: expanded;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .child1>h2{
     font-size: 35px;
-    color: violet;
-  
+    color: rgb(247, 6, 247);
+    margin-bottom: 35px;
+
 }
 .c1{
-    color: violet;
+    color: rgb(230, 8, 230);
 }
 .child2>img{
 border-radius: 20%;    
 height: 300px;
-margin-top: 30px;
+margin-top: -10px;
+box-shadow: 1px 1px 10px rgb(142, 169, 195);
 }
 .sm>h2{
     margin-bottom: 20px;
@@ -33,13 +37,27 @@ margin-top: 30px;
     display: inline;
     padding: 30px;
     color: wheat;
-    border-radius: 50%;
-    
+    border-radius: 50%;  
 }
 .sm>div>p{
     font-size: large;
     font-family: cursive;
     margin-top:10px;
     padding: 10px;
-
 }
+.wave {
+    display: inline-block;
+    animation: wave-animation 2s infinite;
+    transform-origin: 70% 70%;
+  }
+  
+  @keyframes wave-animation {
+    0% { transform: rotate(0deg); }
+    10% { transform: rotate(14deg); }
+    20% { transform: rotate(-8deg); }
+    30% { transform: rotate(14deg); }
+    40% { transform: rotate(-4deg); }
+    50% { transform: rotate(10deg); }
+    60% { transform: rotate(0deg); }
+    100% { transform: rotate(0deg); }
+  }

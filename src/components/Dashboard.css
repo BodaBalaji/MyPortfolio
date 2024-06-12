@@ -23,3 +23,6 @@
    margin: 20px;   
    color: white;
 }
+.h2 a:hover {
+    text-decoration: underline rgb(223, 21, 223) 25%;
+}

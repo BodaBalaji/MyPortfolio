@@ -11,6 +11,11 @@
      padding: 40px;
      height: 550px;
      width: 500px;
+     box-shadow: 1px 1px 25px rgb(145, 198, 211);
+     animation-name: slideInLeft;
+     animation-duration : 1s;
+    animation-fill-mode : both;
+    transition: transform 0.3s ease,
  }
  .project1>h2{
      margin: 20px;
@@ -25,6 +30,11 @@
      padding: 40px;
      height: 550px;
      width: 500px;
+     box-shadow: 1px 1px 25px rgb(145, 198, 211);
+     animation-name: slideInRight;
+     animation-duration : 1s;
+    animation-fill-mode : both;
+    transition: transform 0.3s ease,
  }
  .project2>h2{
      margin: 20px;
@@ -38,6 +48,11 @@
      padding: 40px;
      height: 550px;
      width: 500px;
+     box-shadow: 1px 1px 25px rgb(145, 198, 211);
+     animation-name: slideInLeft;
+     animation-duration : 1s;
+    animation-fill-mode : both;
+    transition: transform 0.3s ease,
  }
  .project3>h2{
      margin: 20px;
@@ -51,6 +66,11 @@
     padding: 40px;
     height: 550px;
     width: 500px;
+    box-shadow: 1px 1px 25px rgb(145, 198, 211);
+    animation-name: slideInRight;
+    animation-duration : 1s;
+    animation-fill-mode : both;
+    transition: transform 0.3s ease,
 }
 .project4>h2{
     margin: 20px;
@@ -58,3 +78,19 @@
 .project4>img{
     border-radius: 50px;
 }
+
+.project1:hover, .project2:hover, .project3:hover, .project4:hover {
+    box-shadow: 0 8px 16px rgb(33, 100, 178); 
+    transform: translateY(-5px); 
+  }
+
+  @keyframes slideInLeft {
+    from { transform: translateX(-100%); }
+    to { transform: translateX(0); }
+  }
+  
+  @keyframes slideInRight {
+    from { transform: translateX(100%); }
+    to { transform: translateX(0); }
+  }
+  

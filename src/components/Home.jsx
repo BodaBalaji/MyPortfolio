@@ -1,13 +1,40 @@
 import axios from "axios";
 import "./Home.css";
+import Typed from "typed.js";
+import { useRef, useEffect } from "react";
 const Home=()=>{
+
+    const typedRef = useRef(null);
+
+    useEffect(() => {
+      const options = {
+        strings: [
+          'Frontend Developer',
+          'Full Stack Developer',
+          'MERN Stack Developer',
+           'Software Developer .'
+        ],
+        typeSpeed: 100,
+        backSpeed: 100,
+        backDelay: 1000,
+        loop: true,
+      };
+  
+      typedRef.current = new Typed('.c1', options);
+  
+      return () => {
+        typedRef.current.destroy();
+      };
+    }, []);
     return(
         <>
          <div className="parent">
             <div className="child1">
-                <p>Hi There..!👋🏻</p>
-            <h2>I'M BODA BALAJI</h2>
-            <p>A passionate <span className="c1"> Full Stack Developer/MERN Stack Developer</span> from Hyderabad.</p>
+                <p>Hi There..! <span className="wave">👋🏻</span></p>
+            <h2 className="child3">I'M BODA BALAJI</h2>
+            <p>A passionate<br />
+                <span className="c1"> Full Stack Developer/MERN Stack Developer</span> <br />
+                from Hyderabad.</p>
             </div>
             <div className="child2">
                 <img src="https://kesare.s3.ap-south-1.amazonaws.com/bodabalaji.jpg" alt="error"/>

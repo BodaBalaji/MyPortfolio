@@ -1,10 +1,9 @@
 import React from "react";
 import "./Information.css";
-import {useNavigate} from "react-router-dom";
+import {Link, useNavigate} from "react-router-dom";
 
   const Information=()=>{
     const hire_me=()=>{
-     return navigate();
     }
     const navigate=useNavigate();
     return(
@@ -18,7 +17,7 @@ import {useNavigate} from "react-router-dom";
         <br />
         <p>Wanna Know <span style={{color:"violet"}}>more about me</span>.., Then click on <span style={{color:"violet"}}>Resume</span>..!</p>
         <br />
-        <button className="b1" onClick={hire_me}>Hire me</button> <button className="b2"><a href="https://kesare.s3.ap-south-1.amazonaws.com/Boda+Balaji_Res.pdf" target="_blank">Resume</a></button>
+        <button className="b1" onClick={hire_me}>Hire me</button> <button className="b2"><a href="https://balajiaws.s3.ap-south-1.amazonaws.com/Boda_Balaji_Resume%5B02%5D.pdf" target="_blank">Resume</a></button>
                </div>
              <div className="inf2">
             <div >

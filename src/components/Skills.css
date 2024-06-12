@@ -22,8 +22,9 @@ h2{
     border-radius: 30px;
     font-family: cursive;
     font-weight: bold;
+    box-shadow: 0 8px 16px rgb(66, 124, 191); 
 }
 .skills>div:hover{
-    background-color: rgb(25, 150, 192);
-    cursor: pointer;
+    box-shadow: 0 8px 16px rgb(66, 124, 191); 
+    transform: translatey(-35px);
 }

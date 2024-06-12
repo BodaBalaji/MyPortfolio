@@ -3,6 +3,7 @@
     border-radius: 20px;
     margin: 100px;
     padding: 50px;
+    box-shadow: 1px 1px 25px rgb(145, 198, 211);
 }
 .inf1>p{
     text-align:inherit;
@@ -46,5 +47,10 @@
     font-family: cursive;
     margin-top:10px;
     padding: 10px;
-
+}
+.b2:hover {
+    filter: drop-shadow(1px 1px 3px orange);
+}
+.b1:hover {
+    filter: drop-shadow(1px 1px 5px green);
 }

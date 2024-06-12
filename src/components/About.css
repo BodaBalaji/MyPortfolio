@@ -3,6 +3,14 @@
     font-weight: bold;
     margin-top: 80px;
 }
+.About h2 {
+    animation: slideInLeft;
+    animation-delay: 0.5s;
+    margin-bottom: 10px;
+    animation-duration : 1s;
+    animation-fill-mode : both;
+    transition: transform 0.3s ease,
+  }
 .About>p{
     font-family: cursive; 
 }
@@ -16,6 +24,11 @@
     border-radius: 20px;
     margin: 20px;
     padding: 30px;
+    animation: slideInRight;
+    box-shadow: 1px 1px 10px rgb(145, 198, 211);
+    animation-duration : 1s;
+    animation-fill-mode : both;
+    transition: transform 0.3s ease,
 }
 .UG>p{
     font-size: 20px;
@@ -26,6 +39,11 @@
     border-radius: 20px;
     margin: 40px;
     padding: 40px;
+    animation: slideInRight;
+    box-shadow: 1px 1px 10px rgb(145, 198, 211);
+    animation-duration : 1s;
+    animation-fill-mode : both;
+    transition: transform 0.3s ease,
 }
 .BIE>p{
     font-size: 20px; 
@@ -36,7 +54,23 @@
     border-radius: 20px;
     margin: 30px;
     padding: 40px;
+    box-shadow: 1px 1px 10px rgb(145, 198, 211);
+    animation: slideInRight;
+    animation-duration : 1s;
+    animation-fill-mode : both;
+    transition: transform 0.3s ease,
+   
 }
 .SSC>p{
     font-size:20px;
 }
+
+@keyframes slideInLeft {
+    from { transform: translateX(-100%); }
+    to { transform: translateX(0); }
+  }
+  
+  @keyframes slideInRight {
+    from { transform: translateX(100%); }
+    to { transform: translateX(0); }
+  }
