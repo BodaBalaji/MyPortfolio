@@ -54,3 +54,51 @@
 .b1:hover {
     filter: drop-shadow(1px 1px 5px green);
 }
+
+/* Information.css */
+
+.login-form-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-form-container {
+    background-image: url("../assets/Background.jpg");
+    padding: 50px;
+    border-radius: 20px;
+    width: 500px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 1px 25px rgb(145, 198, 211);
+  }
+  
+  .login-form-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .login-form-container form div {
+    margin-bottom: 15px;
+  }
+  
+  .login-form-container form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .login-form-container form input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 20px;
+  }
+  
+  .login-form-container form button {
+    margin-right: 10px;
+    
+  }
