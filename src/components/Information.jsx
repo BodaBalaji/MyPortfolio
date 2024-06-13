@@ -12,7 +12,7 @@ const LoginForm = ({ onClose }) => {
     emailjs.sendForm('service_y5633oq', 'template_9lsvluw', form.current, 'Oi8dE1Oh_0YrHMuxV')
       .then((result) => {
           console.log(result.text);
-          alert("Message Sent Successfully");
+          alert("Thankyou..! Your response has been stored.. I'll get back to you soon..!");
       }, (error) => {
           console.log(error.text);
           alert("Failed to Send Message");
