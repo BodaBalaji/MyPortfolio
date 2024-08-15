@@ -20,11 +20,11 @@ const About=()=>{
             </div>
             <div className="BIE">
                 <h3><span style={{color:"violet"}}>NRI JUNIOR COLLEGE</span></h3>
-                <p>👉🏻Completed my <span style={{color:"violet"}}>Intermediate</span> from <span style={{color:"violet"}}>NRI Junior College</span> in MPC stream during the academics from <span style={{color:"violet"}}>2k17-2k29.</span> </p>
+                <p>👉🏻Completed my <span style={{color:"violet"}}>Intermediate</span> from <span style={{color:"violet"}}>NRI Junior College</span> in MPC stream during the academics from <span style={{color:"violet"}}>2k17-2k19.</span> </p>
             </div>
             <div className="SSC">
                 <h3><span style={{color:"violet"}}>VIGNANA JYOTHI HIGH SCHOOL</span></h3>
-                <p>👉🏻Completed my <span style={{color:"violet"}}>Schooling</span> from <span style={{color:"violet"}}>Vignana Jyothi High School</span> during the academics from <span style={{color:"violet"}}>2k07-2k19.</span> </p>
+                <p>👉🏻Completed my <span style={{color:"violet"}}>Schooling</span> from <span style={{color:"violet"}}>Vignana Jyothi High School</span> during the academics from <span style={{color:"violet"}}>2k07-2k17.</span> </p>
             </div>
         </div>
         </>

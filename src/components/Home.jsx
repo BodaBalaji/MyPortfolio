@@ -12,7 +12,7 @@ const Home=()=>{
           'Frontend Developer',
           'Full Stack Developer',
           'MERN Stack Developer',
-           'Software Developer .'
+           'Software Developer'
         ],
         typeSpeed: 100,
         backSpeed: 100,
@@ -35,6 +35,9 @@ const Home=()=>{
             <p>A passionate<br />
                 <span className="c1"></span> <br />
                 from Hyderabad.</p>
+                <a className="ch1" href="mailto:balajiboda2208@gmail.com">
+               <button style={{backgroundColor:"green", padding:"10px"}}><i className="fa fa-envelope"> Mail Me</i></button></a>
+               <a href="https://www.linkedin.com/in/boda-balaji-684930285/" className="ch2" target="_blank"><button style={{backgroundColor:"orange",padding:"10px"}}><i className="fa fa-user"> LinkedIn</i></button></a>
             </div>
             <div className="child2">
                 <img src="https://kesare.s3.ap-south-1.amazonaws.com/bodabalaji.jpg" alt="error"/>

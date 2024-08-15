@@ -19,7 +19,16 @@
     font-size: 35px;
     color: rgb(247, 6, 247);
     margin-bottom: 35px;
-
+}
+.child1>a>button{
+   margin-left: 0px;
+   margin-right: 30px;
+}
+.ch2:hover {
+    filter: drop-shadow(1px 1px 3px orange);
+}
+.ch1:hover {
+    filter: drop-shadow(1px 1px 5px green);
 }
 .c1{
     color: rgb(230, 8, 230);
@@ -27,7 +36,7 @@
 .child2>img{
 border-radius: 20%;    
 height: 300px;
-margin-top: -10px;
+margin-top: 10px;
 box-shadow: 1px 1px 10px rgb(142, 169, 195);
 }
 .sm>h2{

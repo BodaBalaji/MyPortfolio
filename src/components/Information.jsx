@@ -85,7 +85,7 @@ const Information = () => {
         </button>{" "}
         <button className="b2">
           <a
-            href="https://balajiaws.s3.ap-south-1.amazonaws.com/Boda_Balaji_Resume%5B02%5D.pdf"
+            href="https://balajiaws.s3.ap-south-1.amazonaws.com/BodaBalaji_%5BResume%5D.pdf"
             target="_blank">
             Resume
           </a>
